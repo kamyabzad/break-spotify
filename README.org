@@ -1,0 +1,4 @@
+* break-spotify
+A workaround for Spotify's ~403 Forbidden~ in Iran error using [[shecan.ir][shecan.ir]] nameservers. Run this script and copy the results to ~/etc/hosts~ (for Linux/macOS) or ~c:\Windows\System32\Drivers\etc\hosts~ (for Windows).
+
+*Note*: This is not a permanent solution. If it stops working, you might need to run it again or update the SHECAN_NAMESERVERS in the code.
