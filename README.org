@@ -1,16 +1,16 @@
 * break-spotify
-A workaround for Spotify's ~403 Forbidden~ in Iran error using [[shecan.ir][Shecan]] nameservers. Run this script and copy the results to ~/etc/hosts~ (for Linux/macOS) or ~c:\Windows\System32\Drivers\etc\hosts~ (for Windows).
+A workaround for [[https://spotify.com][Spotify]]'s ~403 Forbidden~ error in Iran using [[https://shecan.ir][Shecan]] nameservers. Run this script and copy the results to ~/etc/hosts~ (for Linux/macOS) or ~c:\Windows\System32\Drivers\etc\hosts~ (for Windows).
 
 *Note*: This is not a permanent solution. If it stops working, you might need to run it again or update the ~SHECAN_NAMESERVERS~ in the code.
 
 * But what's Shecan?
 Shecan is basically a proxy that's used as a workaround for services that have imposed sanctions on IPs from Iran (like Spotify, Android and etc.) You set their nameservers and your requests will be proxied through their servers.
 
-* Why I might not want to use it?
+* Why I might not want to use Shecan?
 Well, there's several reasons:
 
 - Using nameservers like Shecan could be risky, since all of your DNS lookups will go through them and they'll be aware of every website you visit, and even some of your traffic will go through their servers.
-- If you're using other services that will modify your nameservers, using Shecan could be messy.
+- If you're using other services that will modify your nameservers (such as VPNs), using Shecan could be messy.
 
 * So, how could this help me?
-This script looks up the domains that you need in order for [[spotify.com][Spotify]] to work from Shecan's nameservers, and by manually setting those in your ~hosts~ file, you'll be using Shecan's proxy regardless of your own nameservers or proxy (that might not be able to access spotify).
+This script looks up the domains that you need in order for Spotify to work from Shecan's nameservers, and by manually setting those in your ~hosts~ file, you'll be using Shecan's proxy to access Spotify, regardless of your own nameservers or proxy (that might not be able to access Spotify).
