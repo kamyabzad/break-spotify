@@ -1,3 +1,6 @@
+* DEPRECATED
+This script is deprecated.
+
 * break-spotify
 A workaround for [[https://spotify.com][Spotify]]'s ~403 Forbidden~ error in Iran using [[https://shecan.ir][Shecan]] nameservers. Run this script and copy the results to ~/etc/hosts~ (for Linux/macOS) or ~c:\Windows\System32\Drivers\etc\hosts~ (for Windows).
 
